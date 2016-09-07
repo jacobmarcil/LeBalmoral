@@ -273,3 +273,25 @@ html, body {
   clear: left;
   padding-top: 10px;
 }
+
+.valeur_impair {
+  padding: 30px;
+  border-bottom: 1px solid gold;
+  border-top: 1px solid gold;
+  background-color: #F2F2F2;
+}
+
+.valeur_impair img {
+  height: 300px;
+  width: 600px;
+}
+
+.valeur_pair {
+  padding: 30px;
+  border-bottom: 1px solid gold;
+}
+
+.valeur_pair {
+  padding: 30px;
+  border-bottom: 1px solid gold;
+}
