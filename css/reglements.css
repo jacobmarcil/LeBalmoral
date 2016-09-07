@@ -1,18 +1,3 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-.main {
-	height: auto;
-	position:relative;
-}
-
-.container-fluid {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-
 .intro-règlements {
   background-color: #eee9dc;
   color: white;
