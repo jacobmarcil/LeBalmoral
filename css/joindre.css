@@ -4,9 +4,11 @@
 	min-height: 700px;
 }
 .header-image {
-	background: url(../Img/parcours.jpg) no-repeat center top;
-	min-height: 550px;
-	background-size: cover;
+	background: url(../Img/balmoral-flag.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+	min-height: 400px;
 	padding: 0;
 	position: relative;
 }
