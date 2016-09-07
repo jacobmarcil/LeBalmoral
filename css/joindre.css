@@ -1,0 +1,39 @@
+
+/***** HEADER IMAGE *****/
+.home .header-image {
+	min-height: 700px;
+}
+.header-image {
+	background: url(../Img/parcours.jpg) no-repeat center top;
+	min-height: 550px;
+	background-size: cover;
+	padding: 0;
+	position: relative;
+}
+
+.intro-joindre {
+  background-color: #eee9dc;
+  color: white;
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top:0;
+  width:100%;
+  position: relative;
+}
+
+.intro-joindre h1 {
+  color: #89691F;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.center{
+  text-align: center;
+}
+
+.maps{
+    display: block;
+    margin: 0 auto;
+}
+
