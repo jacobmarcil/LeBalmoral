@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<?xml version="1.0" encoding="utf-8"?>
+<head>
+	<base href="http://www.lebalmoral.ca/" />
+	<title>Club de Golf Balmoral | Terrain de golf &#xe0; Morin-Heights - Laurentides</title>
+	<meta name="verify-v1" content="N2EY08DK3xdiXOHawb8rAn0L_cIXfIfzw9BX7YgQUik" /> <meta name="msvalidate.01" content="4C73257C704F7762FEBBF15428A0CE70
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="robots" content="index,follow" />
+	<meta name="keywords" content="club de golf, terrain de golf, golf, club de golf laurentides, terrain de golf laurentides, golf laurentides, parcours de golf, parcours golf, terrain" />
+	<meta name="description" content="" />
+	<link rel="start" title="Accueil" href="accueil.html" />
+	<link rel="index" title="Plan du site" href="plan-du-site.html" />
+	<link rel="copyright" title="Copyright © 2016 BALMORAL Tous droits réservés." />
+	<link rel="author" title="Auteurs" href="http://www.vortexsolution.com" />
+	<link rel="shortcut icon" type="images/x-icon" href="Gx/favicon.ico" />
+	
+	
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" title="Normal" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" title="Normal" />
+	
+	
+	<script src="inc/external.js" type="text/javascript"></script>
+	
+	<script type="text/javascript" src="inc/jQuery/jquery.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#menuprincipal ul li').hover(function(){
+				$(this).children('ul').show();
+			},function(){
+				$(this).children('ul').hide();
+			});
+		});
+	</script>
+	
+	
+
+
+	<script type="text/javascript">
+		var langue = "fr";	
+	</script>
+	
+	 
+	
+		<link rel="stylesheet" href="inc/thickbox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="inc/thickbox.js"></script>	
+				
+	
+	
+	
+	
+	
+
+	
+	 <link href="MODULE_RssNouvelle.cfm?l=fr" rel="alternate" type="application/rss+xml" title="Vortex Solution - Nouvelles" /> 
+	
+	
+	
+</head>
+
+<body id="main">
+
+
+<div id="container">
+	<div id="header">
+		<div id="menuprincipal">
+	<ul>
+		<li><a href="golf-country-club.html" id="menu1_fr" ></a>
+					<ul>
+					<li><a href="golf-country-club.html">Nos valeurs</a></li>
+					<li><a href="professionnel-de-golf.html">Nos pros</a></li>
+					
+					<li><a href="nouvelles.html">Nouvelles</a></li>
+					<li><a href="album-photo.html">Album Photo</a></li>
+					</ul>
+		</li>
+		<li><a href="plan-terrain-de-golf.html" id="menu2_fr" ></a>
+					<ul>
+					<li><a href="plan-terrain-de-golf.html">Plan du terrain</a></li>
+					<li><a href="carnet-de-jeu.html">Carnet de jeu</a></li>
+					<li><a href="carte-de-pointage.html">Carte de pointage</a></li>
+					</ul>
+		</li>
+		
+		
+		<li><a href="couts-privileges.html" id="menu3_fr" ></a>
+					<ul>
+					<li><a href="couts-privileges.html">Coûts et privilèges</a></li>
+					<li><a href="adhesion-club-de-golf.html">Règlements et adhésion</a></li>		   
+					
+					<li><a href="interclubs-golf.html">Interclubs</a></li>
+					<li><a href="champ-de-pratique.html">Champ de pratique</a></li>
+					<li><a href="tournois-de-golf.html">Évenements et tournois</a></li>
+					<li><a href="academie-de-golf.html">Académie de golf et junior</a></li>
+					</ul>
+		</li>
+		
+		
+		<li><a href="restaurant-et-bar.html" id="menu4_fr" ></a>
+					<ul>
+						<li><a href="restaurant-et-bar.html">Restaurant et bar</a></li>
+						
+						<li><a href="boutique-golf.html">Boutique</a></li>
+						<li><a href="chalet-golf.html">Chalet</a></li>
+						
+					</ul>
+		</li>
+		
+		<li><a href="golf-morin-heights.html" id="menu6_fr" ></a></li>
+		<li class="separator">&nbsp;</li>
+		<li><a href="accueil.html" id="menu7_fr" class="actif"></a></li>
+		<li><a href="membre.html" id="menu8_fr" ></a></li>
+		<li><a href="home.html" id="menu9_fr"></a></li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+ 
+ 
+
+				
+				<div id="flashcontainer">
+					
+						<a href="accueil.html" id="lienAccueil"></a>
+					
+					
+					<object width="908" height="243">
+	  				<param name="wmode" value="transparent">
+					<param name="allowScriptAccess" value="always" />
+					<param name="movie" value="dy.banner.swf">
+					<param name="flashvars" value="dy_image=1.jpg&dy_image2=3.jpg&dy_image3=2.jpg" />
+					<embed src="dy.banner.swf" wmode="transparent" width="908" height="243" flashvars="dy_image=1.jpg&dy_image2=3.jpg&dy_image3=2.jpg" allowScriptAccess="always">
+					</embed>
+					</object>
+				</div>
+			
+		
+	</div>
+	
+	
+
+	
+	
+	
+	
+	<div id="contenu">
+		<div id="content">
+			
+					<div id="outerleft">
+						
+							<div style="width:584px;margin-bottom:10px;">
+								<div class="texteaccueil">
+									<div class="innertexteaccueil">
+										<br />
+										<h1>Bienvenue à bord</h1> <br />C'est avec un immense plaisir que nous vous invitons à venir visiter le site Internet du Club de Golf Balmoral. Que ce soit pour connaître nos tarifs, notre table, notre équipe, notre boutique ou tous autres services, vous trouverez ce que vous cherchez d'un simple clic!<br />
+<br />
+Vous êtes membre chez nous? Et bien n'attendez plus et explorez votre <a href="main.cfm?p=08_100&l=fr" class="link3">section des membres</a> afin de vous familiariser avec notre interface de réservation Golf, conçue exclusivement pour vous golfeurs.<br />
+<br />
+Vous souhaiteriez organiser un tournoi de golf, un mariage, une soirée spéciale? Peu importe l'occasion, nous sommes en mesure d'accueillir des groupes allant jusqu'à 140 personnes. N'hésitez pas à <a href="main.cfm?p=07_100&l=fr" class="link3">nous contacter</a>.<br />
+<br />
+<em><b>BONNE SAISON DE GOLF À TOUS!</b></em><br /> <br /> 
+										
+									</div>
+								</div>
+								
+									<a href="restaurant-et-bar.html" alt="Restaurant Le Champagne" onmouseover="document.getElementById('btnrestochampagne').src='Gx/01/le-champagne_fr_over.jpg';" onmouseout="document.getElementById('btnrestochampagne').src='Gx/01/le-champagne_fr_off.jpg';"><img src="Gx/01/le-champagne_fr_off.jpg" width="280" height="153" alt="" title="" id="btnrestochampagne" style="float:left;" /></a>
+									<a href="album-photo.html" alt="Album photo" onmouseover="document.getElementById('btnalbumphoto').src='Gx/01/album_photo_fr_over.jpg';" onmouseout="document.getElementById('btnalbumphoto').src='Gx/01/album_photo_fr_off.jpg';"><img src="Gx/01/album_photo_fr_off.jpg" width="281" height="153" alt="" title="" id="btnalbumphoto" style="float:right;" /></a>
+								
+								<br class="both" />
+							</div>	
+						
+						<div id="left">
+							<div id="innerleft">
+									
+<br />
+
+<div style="float:right;width:150px;text-align:right;"><a href="nouvelles.html" class="link2">&gt; Lire toutes les nouvelles</a></div>
+<h1>Nouvelles et événements</h1>
+
+	<div class="listenouvelle">
+		<img src="Gx/01/listenouvelle_top.gif" width="553" height="9" alt="" title="" style="display:block;margin:0px;" />
+		
+		
+			<div class="img">
+				<a href="main.cfm?l=fr&amp;p=01_201&id1=83&amp;start=1"><img src="DATA/NOUVELLE/83_tn.jpg" width="125" alt="" title="" /></a>
+			</div>
+			<div class="txt">
+		
+				<strong class="date">29 juin 2016</strong><br />
+				<span>
+					Clinique de golf gratuite du jeudi
+
+Cours de tennis les samedis
+
+Fitness Golf les mardis
+
+Cyclisme Les mercredis
+
+Discothèque ClubLife les vendredis
+
+Votre 10ième déjeuner Gratuit
+
+Les 2 pour 1 du vendredi
+
+Les vins à 20 $ du jeudi
+
+Service de bar à la piscine
+
+Votre Cellier privé
+
+Et plus encore!
+				</span>
+				<a href="main.cfm?l=fr&amp;p=01_201&id1=83&amp;start=1" class="link4">Lire la suite &raquo;</a>
+			</div>
+			<br class="both" />
+		<img src="Gx/01/listenouvelle_bottom.gif" width="553" height="15" alt="" title="" style="display:block;margin:0px;" />
+	</div>			
+
+	<div class="listenouvelle">
+		<img src="Gx/01/listenouvelle_top.gif" width="553" height="9" alt="" title="" style="display:block;margin:0px;" />
+		
+		
+			<div class="img">
+				<a href="main.cfm?l=fr&amp;p=01_201&id1=82&amp;start=1"><img src="DATA/NOUVELLE/82_tn.jpg" width="125" alt="" title="" /></a>
+			</div>
+			<div class="txt">
+		
+				<strong class="date">29 juin 2016</strong><br />
+				<span>
+					Art de vivre au Balmoral
+				</span>
+				<a href="main.cfm?l=fr&amp;p=01_201&id1=82&amp;start=1" class="link4">Lire la suite &raquo;</a>
+			</div>
+			<br class="both" />
+		<img src="Gx/01/listenouvelle_bottom.gif" width="553" height="15" alt="" title="" style="display:block;margin:0px;" />
+	</div>			
+
+	<div class="listenouvelle">
+		<img src="Gx/01/listenouvelle_top.gif" width="553" height="9" alt="" title="" style="display:block;margin:0px;" />
+		
+		
+			<div class="img">
+				<a href="main.cfm?l=fr&amp;p=01_201&id1=81&amp;start=1"><img src="DATA/NOUVELLE/81_tn.jpg" width="125" alt="" title="" /></a>
+			</div>
+			<div class="txt">
+		
+				<strong class="date">29 juin 2016</strong><br />
+				<span>
+					C'est le 29 juin qu'a lieu la 2e sortie du tour de cyclisme du Balmoral. Vos invités sont les bienvenus!
+				</span>
+				<a href="main.cfm?l=fr&amp;p=01_201&id1=81&amp;start=1" class="link4">Lire la suite &raquo;</a>
+			</div>
+			<br class="both" />
+		<img src="Gx/01/listenouvelle_bottom.gif" width="553" height="15" alt="" title="" style="display:block;margin:0px;" />
+	</div>			
+
+								<br class="both" />
+							</div>
+						</div>
+					</div>
+					
+
+<div id="right">
+	
+
+	<script type="text/javascript" src="inc/jQuery/calendrierEvenement.js" charset="ISO-8859-1"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+			$(document).ready(function(){
+				toggleEventCalendar('CalendrierEvenement', 'fr');
+			});
+		//]]>
+	</script>
+	
+	
+	
+			<form action="https://secure.gggolf.ca/balmoral/index.php?option=com_ggmember" method="post" id="loginform" name="logon" target="_blank" class="loginform_fr">
+				<div class="topdiv">
+					<input type="text" name="mem_id" class="" id="username" value="" />
+					<input type="password" name="pass" class="" id="password" value="" />
+					<input type="hidden" name="req" value="lgn" />
+					<input type="hidden" name="ent_fr" value="1" />
+				</div>
+				<div class="bottomdiv">
+					<input type="submit" name="btnloginform" value="Ouvrir une session" class="bouton" id="" /><br />
+					<span>
+						<a href="javascript:alert('Bientôt disponible.');" class="link2">&gt; Devenir membre</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="mailto:info@lebalmoral.com" class="link2">&gt; Mot de passe oublié</a>
+					</span>
+				</div>
+			</form>
+			<img src="Gx/01/bottom_loginform.gif" width="280" height="4" alt="" title="" style="display:block;margin:0 0 10px 0;">
+		
+			<div id="rightinfo" style="margin-bottom:10px;">
+				<img src="Gx/02/right_img_top.gif" width="280" height="5" style="display:block;margin:0px;" alt="" title="" />
+				<div class="topdiv">
+					<div id="CalendrierEvenement"></div>
+				</div>
+				<img src="Gx/02/right_img_bottom.gif" width="280" height="5" style="display:block;margin:0px;" alt="" title="" />
+			</div>
+	
+	<div id="rightinfo">
+		<div class="topdiv" style="height:10px;overflow:hidden;"></div>
+		<img src="Gx/01/top_bottomdiv.gif" width="280" height="5" alt="" title="" style="display:block;margin:0px;">
+		<div class="bottomdiv">
+			
+				<strong>Club de golf Balmoral</strong><br />
+				100, chemin Balmoral<br />
+				Morin-Heights, J0R 1H0<br />
+				<a rel="lightbox" href="Gx/map.JPG" class="link3 thickbox">Afficher la carte</a> / <a href="http://maps.google.com/maps?f=d&amp;hl=fr&amp;geocode=&amp;saddr=&amp;daddr=45.892794,-74.226839&amp;ie=UTF8&amp;om=1&amp;z=14" class="link3" rel="external">Ouvrir dans Google Maps</a><br />
+				<br />
+					  
+				<strong>Réservation:</strong><br />
+				Tel .: (450) 226-5656 <br />
+				Réceptions, mariages, tournois de golf: poste 242<br />
+				Départ : poste 236<br />
+				Administration : poste 223<br />
+				Boutique : poste 222<br />
+
+				
+				<strong>Réservation Restaurant:</strong><br />
+				(450) 226-5656 poste 225 <br />
+				<br />
+				<a href="mailto:balmoral@lebalmoral.ca" class="link3">balmoral@lebalmoral.ca</a>
+				<br /><br />		
+			
+		</div>	
+		<img src="Gx/01/bottom_bottomdiv.gif" width="280" height="13" alt="" title="" style="display:block;margin:0px;">
+	</div>
+
+</div>
+					<br class="both" />
+				
+		</div>
+	</div>
+	
+
+	<div id="footer">
+		<br />
+		<div id="copyrights">
+			<a href="information-legale.html" id="lienCopyrights">© 2016 <b>BALMORAL</b> Tous droits réservés.</a><br />
+			<a href="http://www.vortexsolution.com" target="_blank">Conception web</a>&nbsp;<a href="http://www.vortexsolution.com"  target="_blank" title="Vortex Solution">par Vortex Solution</a><br />
+		</div>
+		
+<div id="piedtexte">
+
+Situé à Morin-Heights dans la Vallée de Saint-Sauveur dans les Laurentides, le club  de golf de 18 trous Le Balmoral vous offre un terrain de golf à la hauteur de vos attentes. Reconnu pour la qualité de son parcours il présente aussi un défi de taille pour les golfeurs de tous les niveaux, du débutant à l'expert.  Le Balmoral est terrain de golf comme on n'en voit pas tous les jours, comme si la vallée de Saint-Sauveur / Morin-Heights avait été conçue pour accueillir un si beau parcours de golf. Venez rencontrer nos professionnels du golf. Ils se feront un plaisir de partager avec vous leur expérience et de vous guider vers les résultats escomptés. L'équipe de professionnels du Balmoral est toujours à la disposition des membres et de leurs invités pour des leçons de golf privées ou de groupe.
+
+</div>
+
+	<ul class="footer-menu">
+		<br>
+		<a href="golf-country-club.html">Nos valeurs</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="professionnel-de-golf.html">Nos pros</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		
+		<a href="nouvelles.html">Nouvelles</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="album-photo.html">Album Photo</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	</ul>
+	<ul class="footer-menu">
+		<br>
+		<a href="plan-terrain-de-golf.html">Plan du terrain</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="carnet-de-jeu.html">Carnet de jeu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="carte-de-pointage.html">Carte de pointage</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	</ul>
+	<ul class="footer-menu">
+		<br>
+		<a href="couts-privileges.html">Coûts et privilèges</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="adhesion-club-de-golf.html">Règlements et adhésion</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>		   
+		<a href="interclubs-golf.html">Interclubs</a></li>
+		<a href="champ-de-pratique.html">Champ de pratique</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="tournois-de-golf.html">Évenements et tournois</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+		<a href="academie-de-golf.html">Académie de golf et junior</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+	</ul>
+	<ul class="footer-menu">
+		<br>
+		<a href="restaurant-et-bar.html">Restaurant et bar</a><br>
+		<a href="boutique-golf.html">Boutique</a><br>
+		<a href="chalet-golf.html">Chalet</a><br>
+		
+	</ul>
+
+	<div id="menubottom">
+		<a href="plan-du-site.html" >Plan du site</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="home.html" id="menu9_fr">English</a>
+	
+	<br class="both" /><br/><br/>
+	<div id="socialBookmarker">
+		<div id="socialBookmarkerPrefix">
+			<img src="Gx/vortrexgray.jpg">&nbsp;SIGNETS&nbsp;
+		</div>
+	</div>
+	</div>
+	<br class="both" /><br />
+	</div>
+	
+	
+	
+	<div id="shadow">
+	
+	</div>
+</div>
+
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-13246557-6");
+		pageTracker._trackPageview();
+	</script>
+
+
+
+<script type="text/javascript">
+	function externalLinks() {
+	 if (!document.getElementsByTagName) return;
+	 var anchors = document.getElementsByTagName("a");
+	 for (var i=0; i<anchors.length; i++) {
+	   var anchor = anchors[i];
+	   if (anchor.getAttribute("href") && (anchor.getAttribute("rel") == "external" || anchor.getAttribute("rel") == "external nofollow") )
+	     anchor.target = "_blank";
+	 }
+	}
+	window.onload = externalLinks;
+</script>
+
+<script type="text/javascript" src="http://www.vortexsolution.com/bookmark/bookmark.cfm"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		
+		//jQuery('#socialBookmarker').bookmarker({colonnes:1,liensDirect : ['swik', 'google','facebook'],afficher : ['facebook', 'google','myspace'], maxItems:5, positionParDefaut:'haut', langue:'fr'});
+		//jQuery('#socialBookmarker').bookmarker({langue:'fr'});
+		jQuery('#socialBookmarker').bookmarker({colonnes : 2, liensDirect : ['delicious','facebook','google','myspace'],maxItems:5,formatImage:'png', langue:'fr'});
+		//jQuery('#socialBookmarker').bookmarker({colonnes:1,liensDirect : ['delicious', 'google','facebook','myspace'],afficherHover:false, langue:'fr'});
+	});
+</script>
+
+</body>
+</html> 

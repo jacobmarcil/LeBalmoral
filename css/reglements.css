@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+	height: auto;
+	position:relative;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.intro-règlements {
+  background-color: #eee9dc;
+  color: white;
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top:0;
+  width:100%;
+  position: relative;
+}
+
+.intro-règlements h1 {
+  color: #89691F;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.commandements {
+	position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.commandements h1 {
+	text-align: center;
+  text-decoration: underline;
+  border-top: 1px solid gold;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+.commandements p {
+	text-align: center;
+	font-size: 22px;
+}
+
+.respect {
+  text-align: center;
+}
+
+.respect .col-md-8 {
+}
+
+.respect h1 {
+  border-top: 1px solid gold;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+.respect p {
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+.respect a {
+  font-size: 20px;
+}
+
+.footer {
+	position: relative;
+}

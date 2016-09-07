@@ -1,0 +1,275 @@
+/*
+Theme Name: Le Balmoral
+Theme URI: www.lebalmoral.com
+Description: Le site du golf Le Balmoral
+Author: Jacob Marcil
+Version: 1
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.main{
+  position: relative;
+}
+
+#overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.4;
+    /*background:rgba(255,255,255,0.8); or just this*/
+    z-index:100;
+    color:#fff;
+}
+
+.intro {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position:absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.nav {
+  font-size: 19px;
+}
+
+.video-container {
+  margin: 0px;
+  padding: 0px;
+  z-index: -100;
+  width:100%;
+  height: 100%;
+  overflow:hidden;
+  top:0;
+  left:0;
+  background-color: #eee9dc;
+}
+
+.nav li > a {
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-right: 1px solid gold;
+  border-left: 1px solid gold;
+}
+
+.nav li > a:hover {
+  color: black;
+}
+
+.dropdown-menu {
+  padding: 0px !important;
+}
+
+.dropdown-menu > li > a {
+  background-color: rgba(0,0,0,0.5);
+  border-bottom: 1px solid gold;
+  font-size: 17px;
+}
+  
+@media (max-width: 767px) {
+  .navbar-nav  {
+     display: inline;
+  }
+  .navbar-default .navbar-brand {
+    display: inline;
+  }
+
+  .navbar-default .navbar-nav .dropdown-menu > li > a {
+    color: red;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 2px;   
+  }
+
+}
+ 
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+  }
+  #navbar {
+    text-align: center;
+  }
+}  
+
+.balmoral {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  z-index: 1;
+  padding-top: 250px;
+  padding-bottom: 195px;
+}
+
+.go a { 
+  color: gold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.saut-section:hover{ 
+  text-decoration: underline;
+}
+
+
+.about{
+  background-color: #eee9dc;
+}
+
+.row{
+  margin:0 !important;
+}
+
+.about .col-md-6 {
+  background-color: #eee9dc;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.col-md-6 h1 {
+  font-family: 'Open Sans Condensed', sans-serif;; 
+  font-size: 40px;
+}
+
+.col-md-6 p {
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 3px;
+  margin-left: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col-md-6 img {
+  width: 600px;
+  padding: 0 auto;
+}
+
+.btn {
+  background-color: #cdc650;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 10px !important;
+}
+
+.menu {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.menu .col-md-4 > img {
+  width: 300px;
+  height: 150px;
+}
+
+.menu h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.menu .col-md-4 p {
+  padding: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: justify !important;
+}
+
+
+.supporting {
+  color: black;
+  background-color: #F2F2F2;
+}
+
+.supporting h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+.supporting ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.col-md-8 {
+  background-color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.col-md-8 p {
+  font-size: 18px;
+}
+
+.col-md-8 h4 {
+  font-size: 20px;
+}
+
+.sidebar {
+  background-color: #cdc650;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sidebar p {
+  font-size: 18px;
+}
+
+.sidebar h4 {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #eee9dc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 17px;
+}
+
+.footer > ul {
+  list-style-type: none;
+}
+
+.contact-infos {
+  padding-top: 20px;
+}
+
+.social-medias {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.social-medias img {
+  width: 100px;
+  clear: left;
+  padding-top: 10px;
+}

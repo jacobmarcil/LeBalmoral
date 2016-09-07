@@ -1,0 +1,240 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+	height: auto;
+	position:relative;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.intro-règlements {
+  background-color: #eee9dc;
+  color: white;
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top:0;
+  width:100%;
+  position: relative;
+}
+
+.intro-règlements h1 {
+  color: #89691F;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+.section1 {
+  color: black;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid gold;
+}
+
+.section1 h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+  border-top: 1px solid gold;
+}
+
+.section1 h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: bolder;
+}
+
+.section1 ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.section1 .col-md-8 {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-left: 40px;
+  margin-left: 125px;
+}
+
+.section1 .col-md-8 p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section1 .sidebar {
+  background-color: #cdc650;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.section1 .sidebar p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section2 {
+  color: black;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid gold;
+}
+
+.section2 h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.section2 h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: bolder;
+}
+
+.section2 ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.section2 .col-md-2 {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section2 .statut {
+  margin-left: 90px;
+}
+
+.section2 .col-md-2 p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section2 .sidebar {
+  background-color: #cdc650;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.section2 .sidebar p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section3 {
+  color: black;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid gold;
+}
+
+.section3 h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.section3 h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: bolder;
+}
+
+.section3 ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.section3 .col-md-3 {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.section3 .statut {
+  margin-left: 90px;
+}
+
+.section3 .col-md-3 p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section3 .sidebar {
+  background-color: #cdc650;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.section3 .sidebar p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section4 {
+  color: black;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid gold;
+}
+
+.section4 h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.section4 h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: bolder;
+}
+
+.section4 ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.section4 .col-md-8 {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-left: 40px;
+  margin-left: 125px;
+}
+
+.section4 .col-md-8 p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.section4 .sidebar {
+  background-color: #cdc650;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.section4 .sidebar p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
