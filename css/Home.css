@@ -131,6 +131,10 @@ html, body {
   text-align: center;
 }
 
+.saut-section {
+  top: -20px;
+}
+
 .saut-section:hover{ 
   text-decoration: underline;
 }
