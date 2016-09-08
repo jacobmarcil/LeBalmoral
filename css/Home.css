@@ -138,6 +138,7 @@ html, body {
 
 .about{
   background-color: #eee9dc;
+  border-bottom: 1px solid gold;
 }
 
 .row{
@@ -212,6 +213,8 @@ html, body {
 .supporting {
   color: black;
   background-color: #F2F2F2;
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
 }
 
 .supporting h3 {
