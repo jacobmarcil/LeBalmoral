@@ -223,3 +223,9 @@
   border-bottom: 1px solid gold;
   margin-bottom: 9px;
 }
+
+.section4 .center {
+  text-align: center;
+  backgroud : url(../Img/pdf.jpg);
+}
+
