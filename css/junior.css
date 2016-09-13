@@ -1,3 +1,53 @@
 p {
 	text-align: center;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.valeur_pair h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.valeur_pair h3 {
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: bolder;
+}
+
+.valeur_pair ul {
+  list-style-type: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.valeur_pair .col-md-2 {
+  background-color: #FFFFFF;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.valeur_pair .statut {
+  margin-left: 90px;
+}
+
+.valeur_pair .col-md-2 p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
+}
+
+.valeur_pair .sidebar {
+  background-color: #cdc650;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.valeur_pair .sidebar p {
+  font-size: 18px;
+  border-bottom: 1px solid gold;
+  margin-bottom: 9px;
 }
