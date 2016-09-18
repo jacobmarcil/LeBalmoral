@@ -6,22 +6,15 @@
     <title>
         Le Balmoral
     </title>
-    <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-    <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
-    <!-- leave this for stats -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/couts.css">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
-    <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
-    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
-    <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../css/planterrain.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -81,6 +74,83 @@
             </div>
         </div>
         <!-- Fin Header -->
+        <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-background">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="contenant">
+                        <div class="enfant">
+                            <img id="img1" src="" alt="" class="imageModalPresentation">
+                        </div>
+                        <div class="enfant informationModalSuperieur">
+                            <h2 class="modal-title" id="titre"></h2>
+                            <p id="par"></p>
+                            <p id="description"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                  <div class="sectionSeparateur">
+                    <div id="blackSquare" class="square"></div>
+                    <span class="informationModal" id="black"></span>
+                  </div>
+                  <div  class="sectionSeparateur">
+                    <div id="whiteSquare" class="square"></div>
+                    <span class="informationModal" id="white"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="hdcpblackSquare" class="square">Hdcp</div>
+                    <span class="informationModal" id="hdcpblack"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="plusmoinsSquare" class="square">+/-</div>
+                    <span class="informationModal" id="plusmoins"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="goldSquare" class="square"></div>
+                    <span class="informationModal" id="gold"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="greenSquare" class="square"></div>
+                    <span class="informationModal" id="green"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="hdcpgoldSquare" class="square">Hdcp</div>
+                    <span class="informationModal" id="hdcpgold"></span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <img id="img2" src="" alt="" class="imageModal">
+                    <img id="img3" src="" alt="" class="imageModal">
+                    <img id="img4" src="" alt="" class="imageModal">
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="plan_terrain" src="../Img/balmoral_terrain.svg" usemap="#image-map">
+    <map name="image-map">
+        <area id="trou1" class="trou" data-black="400" data-white="382" data-gold="360" data-green="328" data-hdcpblack="11" data-hdcpgold="7" data-plusmoins="5" data-distance="400" data-par="4" data-description="At the tee aim at right side of the trap. 2nd shot will need extra club." data-img1="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-img2="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-img3="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-img4="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 1" alt="Trou 1" title="Trou 1" href="#" coords="435,710,415,704,402,689,382,674,367,656,351,627,348,606,368,615,394,647,417,671,435,683,443,699" shape="poly">
+        <area id="trou2" class="trou" data-black="403" data-white="360" data-gold="342" data-green="303" data-hdcpblack="11" data-hdcpgold="5" data-plusmoins="4" data-distance="" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 2" alt="Trou 2" title="Trou 2" href="#" coords="452,683,423,655,381,614,371,570,360,539,369,517,386,502,402,506,397,551,409,599,432,627,449,664" shape="poly">
+        <area id="trou3" class="trou" data-black="144" data-white="134" data-gold="121" data-green="113" data-hdcpblack="15" data-hdcpgold="15" data-plusmoins="5" data-distance="" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 3" alt="Trou 3" title="Trou 3" href="#" coords="338,479,373,478,406,476,407,484,378,489,360,498,340,492,333,486" shape="poly">
+        <area id="trou4" class="trou" data-black="535" data-white="514" data-gold="475" data-green="420" data-hdcpblack="13" data-hdcpgold="13" data-plusmoins="5" data-distance="" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 4" alt="Trou 4" title="Trou 4" href="#" coords="327,421,355,389,376,368,397,351,406,334,432,314,450,289,465,291,468,303,449,317,442,335,424,347,406,373,389,391,367,402,333,427" shape="poly">
+        <area id="trou5" class="trou" data-black="184" data-white="169" data-gold="151" data-green="123" data-hdcpblack="9" data-hdcpgold="11" data-plusmoins="5" data-distance="184" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 5" alt="Trou 5" title="Trou 5" href="#" coords="485,302,526,317,548,323,560,334,552,342,539,347,521,333,480,312" shape="poly">
+        <area id="trou6" class="trou" data-black="429" data-white="400" data-gold="332" data-green="326" data-hdcpblack="3" data-hdcpgold="3" data-plusmoins="5" data-distance="429" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 6" alt="Trou 6" title="Trou 6" href="#" coords="573,373,609,391,635,405,657,406,665,414,695,429,719,438,735,445,747,432,737,426,711,416,681,394,662,388,618,378,580,368" shape="poly">
+        <area id="trou7" class="trou" data-black="444" data-white="418" data-gold="382" data-green="328" data-hdcpblack="7" data-hdcpgold="7" data-plusmoins="9" data-distance="444" data-par="5" data-description="A ditch crosses the fairway at 210 yards (white) 145 yards (white-green).  Add 3 clubs for 2nd short.  And one club for third shot.  Stay short on the green." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 7" alt="Trou 7" title="Trou 7" href="#" coords="756,417,726,388,713,365,684,354,659,355,613,350,577,344,567,351,580,360,603,365,642,375,679,380,710,397,722,402,745,417" shape="poly">
+        <area id="trou8" class="trou" data-black="521" data-white="485" data-gold="433" data-green="370" data-hdcpblack="1" data-hdcpgold="1" data-plusmoins="5" data-distance="521" data-par="5" data-description="At the tee, aim to center- left of fairway.  Dont cut more than 30 ditch on left side.  2nd and 3rd shot, add a club." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 8" alt="Trou 8" title="Trou 8" href="#" coords="527,364,498,344,468,339,443,347,438,356,418,381,406,386,399,404,343,436,341,453,352,461,367,452,382,438,393,438,408,417,420,414,424,388,455,364,482,366,518,370,526,370" shape="poly">
+        <area id="trou9" class="trou" data-black="148" data-white="133" data-gold="121" data-green="109" data-hdcpblack="17" data-hdcpgold="17" data-plusmoins="5" data-distance="148" data-par="3" data-description="Green is wider than it appears from tee." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 9" alt="Trou 9" title="Trou 9" href="#" coords="323,489,317,504,325,519,335,527,347,533,355,527,342,510,330,493" shape="poly">
+        <area id="trou10" class="trou" data-black="402" data-white="369" data-gold="355" data-green="320" data-hdcpblack="6" data-hdcpgold="6" data-plusmoins="5" data-distance="402" data-par="4" data-description="Aim center-right.  Add a club for 2nd shot." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 10" alt="Trou 10" title="Trou 10" href="#" coords="141,679,157,682,174,668,189,663,207,645,230,635,245,617,246,594,230,599,199,617,169,642,142,660" shape="poly">
+        <area id="trou11" class="trou" data-black="354" data-white="318" data-gold="289" data-green="247" data-hdcpblack="12" data-hdcpgold="12" data-plusmoins="5" data-distance="354" data-par="4" data-description="Long hitters can reach green.  If extremely accurate.  For others, a shot towards the 100 yards marker will suffice." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 11" alt="Trou 11" title="Trou 11" href="#" coords="128,642,162,612,187,591,214,580,224,589,209,601,188,614,173,624,136,645" shape="poly">
+        <area id="trou12" class="trou" data-black="321" data-white="307" data-gold="280" data-green="254" data-hdcpblack="14" data-hdcpgold="14" data-plusmoins="5" data-distance="321" data-par="4" data-description="You can reach the green with a 250 yard drive.  Aim right off cart path." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 12" alt="Trou 12" title="Trou 12" href="#" coords="117,390,103,402,116,424,123,446,135,457,135,491,153,510,187,529,192,522,167,499,156,467,151,455,148,438,130,415" shape="poly">
+        <area id="trou13" class="trou" data-black="527" data-white="516/480" data-gold="432" data-green="380" data-hdcpblack="8" data-hdcpgold="8" data-plusmoins="5" data-distance="527" data-par="5" data-description="The signature hole of the golf club... Tee shot requires extreme accuracy.  The fairway slopes left.  2nd shot should be right of fairway." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 13" alt="Trou 13" title="Trou 13" href="#" coords="95,117,91,130,91,143,99,155,107,168,102,200,97,240,95,271,90,348,99,349,115,296,116,263,121,235,126,209,130,185,127,160,106,120,101,117" shape="poly">
+        <area id="trou14" class="trou" data-black="142" data-white="132" data-gold="122" data-green="110" data-hdcpblack="18" data-hdcpgold="16" data-plusmoins="5" data-distance="142" data-par="3" data-description="Add a club." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 14" alt="Trou 14" title="Trou 14" href="#" coords="108,88,163,94,183,99,194,108,188,120,170,118,108,99" shape="poly">
+        <area id="trou15" class="trou" data-black="431" data-white="400" data-gold="375" data-green="332/297" data-hdcpblack="2" data-hdcpgold="2" data-plusmoins="5" data-distance="431" data-par="4" data-description="Drive should be center left.  Lots of effort needed on drive, stay short, as green rolls toward right of green" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 15" alt="Trou 15" title="Trou 15" href="#" coords="239,116,227,180,223,201,210,225,187,267,163,292,172,303,191,292,218,260,236,229,243,184,249,129" shape="poly">
+        <area id="trou16" class="trou" data-black="328" data-white="315" data-gold="285" data-green="270" data-hdcpblack="10" data-hdcpgold="10" data-plusmoins="5" data-distance="328" data-par="4" data-description="Shot should be center.  2nd shot lightly toward right of green." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 16" alt="Trou 16" title="Trou 16" href="#" coords="179,319,212,345,229,366,246,379,259,379,279,390,292,396,307,396,314,384,300,376,277,368,261,354,229,342,204,327,189,313" shape="poly">
+        <area id="trou17" class="trou" data-black="198" data-white="168" data-gold="158" data-green="128" data-hdcpblack="18" data-hdcpgold="158" data-plusmoins="5" data-distance="198" data-par="3" data-description="Aim left of green." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 17" alt="Trou 17" title="Trou 17" href="#" coords="189,378,195,385,205,389,217,396,228,401,244,409,259,412,269,407,259,397,236,388,215,378,204,366,195,359,189,365" shape="poly">
+        <area id="trou18" class="trou" data-black="530" data-white="505" data-gold="451" data-green="385" data-hdcpblack="4" data-hdcpgold="4" data-plusmoins="5" data-distance="530" data-par="5" data-description="Drive should be right of fairway.  2nd shot center left of fairway." data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 18" alt="Trou 18" title="Trou 18" href="#" coords="140,379,177,419,195,438,205,450,239,455,265,468,290,473,299,488,306,522,300,532,286,523,268,498,245,491,190,471,179,461,166,429,137,385" shape="poly">
+        <area id="chalet" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Chalet" alt="Chalet" title="Chalet" href="#" coords="276,553,295,534,316,532,325,546,328,561,309,573,287,565" shape="poly">
+        <area id="pratique" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="2000m" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Pratique" alt="Pratique" title="Pratique" href="#" coords="181,472,171,497,263,543,273,529,275,514" shape="poly">
+    </map>
         <!-- Footer -->
         <div class="footer">
             <div class="container">
@@ -102,5 +172,43 @@
         </div>
     </div>
 </body>
-</div>
-</body>
+<script>
+$(document).on("click", ".trou", function() {
+    var noTrou = $(this).data('numero');
+    var black = $(this).data('black');
+    var white = $(this).data('white');
+    var gold = $(this).data('gold');
+    var green = $(this).data('green');
+    var hdcpblack = $(this).data('hdcpblack');
+    var hdcpgold = $(this).data('hdcpgold');
+    var plusmoins = $(this).data('plusmoins');
+    var distance = $(this).data('distance');
+    var par = $(this).data('par');
+    var description = $(this).data('description');
+    var img1 = $(this).data('img1');
+    var img2 = $(this).data('img2');
+    var img3 = $(this).data('img3');
+    var img4 = $(this).data('img4');
+
+    $("#titre").text(noTrou);
+    $("#black").text("Black : " + black);
+    $("#white").text("White : " + white);
+    $("#gold").text("Gold : " + gold);
+    $("#green").text("Green : " + green);
+    $("#hdcpblack").text(hdcpblack);
+    $("#hdcpgold").text(hdcpgold);
+    $("#plusmoins").text(plusmoins);
+    $("#distance").text("Distance : " + distance);
+    $("#par").text("Par : " + par);
+    $("#description").text(description);
+    $("#img1").attr("src", img1);
+    $("#img2").attr("src", img2);
+    $("#img3").attr("src", img3);
+    $("#img4").attr("src", img4);
+
+    // As pointed out in comments, 
+    // it is superfluous to have to manually call the modal.
+    // $('#addBookDialog').modal('show');
+});
+</script>
+</html>
