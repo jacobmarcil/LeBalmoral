@@ -177,7 +177,6 @@ html, body {
 }
 
 .col-md-6 img {
-  width: 600px;
   padding: 0 auto;
 }
 
@@ -299,8 +298,7 @@ html, body {
 }
 
 .valeur_impair img {
-  height: 300px;
-  width: 600px;
+
 }
 
 .valeur_pair {
@@ -334,4 +332,14 @@ html, body {
   text-align: center;
   width: 50%;
   margin: 0 auto; 
+}
+.imageContainer{
+position:relative;
+    height:300px;
+    overflow:hidden;
+}
+.imageDisplay{
+  position:absolute;
+    bottom:0;
+    left:20%;
 }
