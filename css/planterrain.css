@@ -10,5 +10,52 @@
 	display:inline-block;
 }
 .imageModal{
-	width: 220px;
+	width: 270px;
+	margin:5px;
+}
+.imageModalPresentation{
+	width: 350px;
+}
+.modal-content{
+	border-color:#ccc;
+	border-width: 7px;
+}
+.modal-body{
+	text-align: center;
+}
+.informationModal{
+	margin:25px;
+	    font-size: 16px;
+    font-weight: 600;
+}
+.informationModalSuperieur{
+	padding-left: 50px;
+	width: 50%;
+	font-size:20px;
+}
+.square{
+	width: 50px;
+	height: 20px;
+	margin:auto;
+	margin-bottom: 10px;
+	    font-size: 18px;
+    font-weight: 900;
+}
+.sectionSeparateur{
+	display: inline-block;
+}
+#blackSquare{
+	background-color: black;
+}
+#whiteSquare{
+	background-color: white;
+	border-width: 1px;
+	border-color:black;
+	border-style:solid;
+}
+#goldSquare{
+	background-color: gold;
+}
+#greenSquare{
+	background-color: green;
 }

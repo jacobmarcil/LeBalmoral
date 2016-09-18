@@ -10,10 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/Home.css">
     <link rel="stylesheet" href="../css/planterrain.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -75,41 +74,60 @@
             </div>
         </div>
     </div>
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content modal-background">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <div class="contenant">
-            <div class="enfant">
-              <img id="img1" src="" alt="" class="imageModal">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-background">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="contenant">
+                        <div class="enfant">
+                            <img id="img1" src="" alt="" class="imageModalPresentation">
+                        </div>
+                        <div class="enfant informationModalSuperieur">
+                            <h2 class="modal-title" id="titre"></h2>
+                            <p id="par"></p>
+                            <p id="description"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                  <div class="sectionSeparateur">
+                    <div id="blackSquare" class="square"></div>
+                    <span class="informationModal" id="black"></span>
+                  </div>
+                  <div  class="sectionSeparateur">
+                    <div id="whiteSquare" class="square"></div>
+                    <span class="informationModal" id="white"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="hdcpblackSquare" class="square">Hdcp</div>
+                    <span class="informationModal" id="hdcpblack"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="plusmoinsSquare" class="square">+/-</div>
+                    <span class="informationModal" id="plusmoins"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="goldSquare" class="square"></div>
+                    <span class="informationModal" id="gold"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="greenSquare" class="square"></div>
+                    <span class="informationModal" id="green"></span>
+                  </div>
+                  <div class="sectionSeparateur">
+                    <div id="hdcpgoldSquare" class="square">Hdcp</div>
+                    <span class="informationModal" id="hdcpgold"></span>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <img id="img2" src="" alt="" class="imageModal">
+                    <img id="img3" src="" alt="" class="imageModal">
+                    <img id="img4" src="" alt="" class="imageModal">
+                </div>
             </div>
-            <div class="enfant">          
-              <h4 class="modal-title" id="titre"></h4>
-              <p id="par"></p>
-              <p id="description"></p>
-            </div>
-          </div>
-
         </div>
-        <div class="modal-body">
-          <span id="black"></span>
-          <span id="white"></span>
-          <span id="hdcpblack"></span>
-          <span id="plusmoins"></span>
-          <span id="gold"></span>
-          <span id="green"></span>
-          <span id="hdcpgold"></span>
-        </div>
-        <div class="modal-footer">
-          <img id="img2" src="" alt="" class="imageModal">
-          <img id="img3" src="" alt="" class="imageModal">
-          <img id="img4" src="" alt="" class="imageModal">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
     </div>
-  </div>
     <img class="plan_terrain" src="../Img/balmoral_terrain.svg" usemap="#image-map">
     <map name="image-map">
         <area id="trou1" class="trou" data-black="400" data-white="382" data-gold="360" data-green="328" data-hdcpblack="11" data-hdcpgold="7" data-plusmoins="5" data-distance="400" data-par="4" data-description="At the tee aim at right side of the trap. 2nd shot will need extra club." data-img1="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-img2="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-img3="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-img4="https://upload.wikimedia.org/wikipedia/commons/b/bf/Blue_Tiger_Im_IMG_9450.jpg" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 1" alt="Trou 1" title="Trou 1" href="#" coords="435,710,415,704,402,689,382,674,367,656,351,627,348,606,368,615,394,647,417,671,435,683,443,699" shape="poly">
@@ -133,7 +151,6 @@
         <area id="chalet" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Chalet" alt="Chalet" title="Chalet" href="#" coords="276,553,295,534,316,532,325,546,328,561,309,573,287,565" shape="poly">
         <area id="pratique" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="2000m" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Pratique" alt="Pratique" title="Pratique" href="#" coords="181,472,171,497,263,543,273,529,275,514" shape="poly">
     </map>
-
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -153,8 +170,8 @@
         </div>
     </div>
 </body>
-  <script>
-  $(document).on("click", ".trou", function () {
+<script>
+$(document).on("click", ".trou", function() {
     var noTrou = $(this).data('numero');
     var black = $(this).data('black');
     var white = $(this).data('white');
@@ -170,28 +187,28 @@
     var img2 = $(this).data('img2');
     var img3 = $(this).data('img3');
     var img4 = $(this).data('img4');
-       
-     $("#titre").text( noTrou );
-     $("#black").text("Black : " + black );
-     $("#white").text("White : " + white );
-     $("#gold").text("Gold : " + gold );
-     $("#green").text("Green : " + green );
-     $("#hdcpblack").text("Hdcp : " + hdcpblack );
-     $("#hdcpgold").text("Hdcp : " + hdcpgold );
-     $("#plusmoins").text("+/- : " + plusmoins );
-     $("#distance").text("Distance : " + distance );
-     $("#par").text("Par : " + par );
-     $("#description").text( description );
-     $("#img1").attr("src", img1 );
-     $("#img2").attr("src", img2 );
-     $("#img3").attr("src", img3 );
-     $("#img4").attr("src", img4 );
-    
-     // As pointed out in comments, 
-     // it is superfluous to have to manually call the modal.
-     // $('#addBookDialog').modal('show');
+
+    $("#titre").text(noTrou);
+    $("#black").text("Black : " + black);
+    $("#white").text("White : " + white);
+    $("#gold").text("Gold : " + gold);
+    $("#green").text("Green : " + green);
+    $("#hdcpblack").text(hdcpblack);
+    $("#hdcpgold").text(hdcpgold);
+    $("#plusmoins").text(plusmoins);
+    $("#distance").text("Distance : " + distance);
+    $("#par").text("Par : " + par);
+    $("#description").text(description);
+    $("#img1").attr("src", img1);
+    $("#img2").attr("src", img2);
+    $("#img3").attr("src", img3);
+    $("#img4").attr("src", img4);
+
+    // As pointed out in comments, 
+    // it is superfluous to have to manually call the modal.
+    // $('#addBookDialog').modal('show');
 });
-  </script>
+</script>
 
 </html>
 <!-- Fin body -->
