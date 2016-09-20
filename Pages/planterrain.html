@@ -149,8 +149,8 @@
         <area id="trou16" class="trou" data-black="328" data-white="315" data-gold="285" data-green="270" data-hdcpblack="10" data-hdcpgold="10" data-plusmoins="5" data-distance="328" data-par="4" data-description="Shot should be center.  2nd shot lightly toward right of green."  data-img1="../Img/trou16_img1.jpg" data-img2="../Img/trou16_img2.jpg" data-img3="../Img/trou16_img3.jpg" data-img4="../Img/svgTerrain/16.svg" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 16" alt="Trou 16" title="Trou 16" href="#" coords="179,319,212,345,229,366,246,379,259,379,279,390,292,396,307,396,314,384,300,376,277,368,261,354,229,342,204,327,189,313" shape="poly">
         <area id="trou17" class="trou" data-black="198" data-white="168" data-gold="158" data-green="128" data-hdcpblack="18" data-hdcpgold="158" data-plusmoins="5" data-distance="198" data-par="3" data-description="Aim left of green."  data-img1="../Img/trou17_img1.jpg" data-img2="../Img/trou17_img2.jpg" data-img3="../Img/trou17_img3.jpg" data-img4="../Img/svgTerrain/17.svg" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 17" alt="Trou 17" title="Trou 17" href="#" coords="189,378,195,385,205,389,217,396,228,401,244,409,259,412,269,407,259,397,236,388,215,378,204,366,195,359,189,365" shape="poly">
         <area id="trou18" class="trou" data-black="530" data-white="505" data-gold="451" data-green="385" data-hdcpblack="4" data-hdcpgold="4" data-plusmoins="5" data-distance="530" data-par="5" data-description="Drive should be right of fairway.  2nd shot center left of fairway."  data-img1="../Img/trou18_img1.jpg" data-img2="../Img/trou18_img2.jpg" data-img3="../Img/trou18_img3.jpg" data-img4="../Img/svgTerrain/18.svg" data-toggle="modal" data-target="#myModal" target="" data-numero="Trou 18" alt="Trou 18" title="Trou 18" href="#" coords="140,379,177,419,195,438,205,450,239,455,265,468,290,473,299,488,306,522,300,532,286,523,268,498,245,491,190,471,179,461,166,429,137,385" shape="poly">
-        <area id="chalet" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="../Img/svgTerrain/1.svg" data-toggle="modal" data-target="#myModal" target="" data-numero="Chalet" alt="Chalet" title="Chalet" href="#" coords="276,553,295,534,316,532,325,546,328,561,309,573,287,565" shape="poly">
-        <area id="pratique" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="2000m" data-par="" data-description="" data-img1="" data-img2="" data-img3="" data-img4="../Img/svgTerrain/1.svg" data-toggle="modal" data-target="#myModal" target="" data-numero="Pratique" alt="Pratique" title="Pratique" href="#" coords="181,472,171,497,263,543,273,529,275,514" shape="poly">
+        <area id="chalet" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="" data-par="" data-description="" data-img1="../Img/chalet_img1.jpg" data-img2="../Img/chalet_img2.jpg" data-img3="../Img/chalet_img3.jpg" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Chalet" alt="Chalet" title="Chalet" href="#" coords="276,553,295,534,316,532,325,546,328,561,309,573,287,565" shape="poly">
+        <area id="pratique" class="trou" data-black="" data-white="" data-gold="" data-green="" data-hdcpblack="" data-hdcpgold="" data-plusmoins="" data-distance="2000m" data-par="" data-description="" data-img1="../Img/pratique_img1.jpg" data-img2="../Img/pratique_img2.jpg" data-img3="../Img/pratique_img3.jpg" data-img4="" data-toggle="modal" data-target="#myModal" target="" data-numero="Pratique" alt="Pratique" title="Pratique" href="#" coords="181,472,171,497,263,543,273,529,275,514" shape="poly">
     </map>
     <div class="footer">
         <div class="container">
@@ -204,6 +204,12 @@ $(document).on("click", ".trou", function() {
     $("#img2").attr("src", img2);
     $("#img3").attr("src", img3);
     $("#img4").attr("src", img4);
+    if(img4 == ""){
+        $("#img4").hide();
+    }
+    if(par == ""){
+        $("#par").hide();
+    }
 
     // As pointed out in comments, 
     // it is superfluous to have to manually call the modal.
